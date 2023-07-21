@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "currencyApp",
-    "slug": "currencyApp",
+    "name": "Emmaly",
+    "slug": "Emmaly",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.emmako065.Emmaly"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7dd379bb-5075-42a7-a263-a83bc28963a9"
+      }
     }
   }
 }
